@@ -12,7 +12,7 @@ class Interfaz:
     def __init__(self, ventana):
         self.ventana = ventana
         self.ventana.title('Buscador en excel')
-        self.ventana.iconbitmap('./img/police2.ico')
+        # self.ventana.iconbitmap('./img/police2.ico')
         self.ventana.geometry("1040x550+100+50")
 
         # creamos un frame
@@ -200,7 +200,7 @@ class Ver:
     def __init__(self, ventana,listaMostrar, pos):
         self.newWindow = Toplevel(ventana)
         self.newWindow.title('Datos Personal')
-        self.newWindow.iconbitmap('./img/police2.ico')
+        # self.newWindow.iconbitmap('./img/police2.ico')
         self.newWindow.geometry("770x570+150+100")
 
         self.miCanvas = Canvas(self.newWindow,background="white", width=770,height=570)
@@ -451,7 +451,7 @@ class Aniadir:
     def __init__(self,ventana):
         self.newWindow = Toplevel(ventana)
         self.newWindow.title('Datos Personal')
-        self.newWindow.iconbitmap('./img/police2.ico')
+        # self.newWindow.iconbitmap('./img/police2.ico')
         self.newWindow.geometry("1150x510+150+100")
 
         self.miCanvas = Canvas(self.newWindow,background="white", width=770,height=570)
@@ -705,7 +705,7 @@ class Editar:
     def __init__(self, ventana,listaMostrar, pos):
         self.newWindow = Toplevel(ventana)
         self.newWindow.title('Editar')
-        self.newWindow.iconbitmap('./img/police2.ico')
+        # self.newWindow.iconbitmap('./img/police2.ico')
         self.newWindow.geometry("1150x510+150+100")
 
         self.miCanvas = Canvas(self.newWindow,background="white", width=770,height=570)
